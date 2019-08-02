@@ -22,9 +22,9 @@ class ChatHome extends Component{
         else
         return(
             <div className='input'>
-                <p style={{marginRight:'9px'}}>Enter your name :</p>
-                <input type="text" onChange={this.change1} value={this.state.name} placeholder="Enter name here"/>
-                <button onClick={this.change2} >Submit</button>
+                <p style={{marginRight:'9px',fontSize:'20px'}}>Enter your name :
+                &nbsp;<input style={{height:'30px',width:'200px',fontSize:'15px'}} type="text" onChange={this.change1} value={this.state.name} placeholder="Enter name here"/>
+                &nbsp;&nbsp;<button style={{height:'30px',width:'60px'}} onClick={this.change2} >Submit</button></p>
             </div>
         );
 

@@ -38,8 +38,8 @@ class ChatInput extends Component{
                 </div>
                 <div className="input">
                 
-                    <input  onChange={this.change} onKeyPress={this.typingFunction} type="text" value={this.state.text}/>
-                    <button onClick={this.click}>Send</button>
+                    <input style={{height:'30px',width:'400px',fontSize:'15px'}} onChange={this.change} onKeyPress={this.typingFunction} type="text" value={this.state.text}/>
+                    &nbsp;&nbsp;<button style={{width:'70px',fontSize:'15px'}} onClick={this.click}>Send</button>
                 </div>
             </div>
         );

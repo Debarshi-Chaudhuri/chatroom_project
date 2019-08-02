@@ -41,6 +41,10 @@
   height:75%;
   overflow-anchor: 'none';
   overflow-y: scroll;
+  
+}
+.scroll::-webkit-scrollbar{
+  display: none;
 }
 .typing{
   margin-left: 21.4%;
