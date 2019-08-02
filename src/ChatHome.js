@@ -31,4 +31,4 @@ class ChatHome extends Component{
         
     }
 }
-export default ChatHome;
+export default (ChatHome);
