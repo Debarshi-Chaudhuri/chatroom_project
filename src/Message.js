@@ -2,10 +2,10 @@ import React,{Component} from 'react'
 import Avatar from '@material-ui/core/Avatar'
 import './App.css'
 
-class Message extends Component{
-   
+class Message extends Component{   
+    
     render(){
-        
+
         if(this.props.fromMe)
         return(
         <div >

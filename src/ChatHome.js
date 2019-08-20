@@ -10,6 +10,7 @@ class ChatHome extends Component{
         this.setState({name:event.target.value})
     }
     change2=()=>{
+        if(this.state.name!=='')
         this.setState({status:true})
     }
     render(){
